@@ -13,7 +13,7 @@ A classe possui os seguintes métodos:
 
 * `enqueue()` -> adiciona um item na fila
 * `dequeue()` -> remove o primeiro item da fila
-* `peek()` → mostra o primeiro item sem remover
+* `peek()` -> mostra o primeiro item sem remover
 * `is_empty()` -> verifica se a fila está vazia
 * `is_full()` -> verifica se a fila está cheia
 * `size()` -> retorna a quantidade de elementos
