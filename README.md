@@ -4,20 +4,20 @@ Implementação de uma fila FIFO (First In, First Out) utilizando Python.
 
 ## Arquivos do projeto
 
-* `queue.py` → contém a implementação da classe `Queue`
-* `test_queue.py` → contém os testes da fila
+* `queue.py` -> contém a implementação da classe `Queue`
+* `test_queue.py` -> contém os testes da fila
 
 ## Funcionalidades
 
 A classe possui os seguintes métodos:
 
-* `enqueue()` → adiciona um item na fila
-* `dequeue()` → remove o primeiro item da fila
+* `enqueue()` -> adiciona um item na fila
+* `dequeue()` -> remove o primeiro item da fila
 * `peek()` → mostra o primeiro item sem remover
-* `is_empty()` → verifica se a fila está vazia
-* `is_full()` → verifica se a fila está cheia
-* `size()` → retorna a quantidade de elementos
-* `clear()` → limpa a fila
+* `is_empty()` -> verifica se a fila está vazia
+* `is_full()` -> verifica se a fila está cheia
+* `size()` -> retorna a quantidade de elementos
+* `clear()` -> limpa a fila
 
 ## Como executar
 
