@@ -1,6 +1,6 @@
 # Projeto Queue em Python
 
-Implementação de uma fila FIFO (First In, First Out) utilizando Python.
+Implementação de uma fila FIFO utilizando Python.
 
 ## Arquivos do projeto
 
