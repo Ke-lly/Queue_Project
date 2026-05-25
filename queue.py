@@ -1,12 +1,11 @@
 class Queue:
     """
-    Classe que representa uma fila FIFO (First In, First Out).
+    Classe que representa uma fila FIFO.
     """
 
     def __init__(self, max_size=None):
         """
         Inicializa uma fila vazia.
-
         :param max_size: tamanho máximo da fila (opcional).
                          None significa fila ilimitada.
         """
@@ -16,7 +15,6 @@ class Queue:
     def enqueue(self, item):
         """
         Adiciona um item no final da fila.
-
         :param item: item a ser adicionado.
         :raises OverflowError: se a fila estiver cheia.
         """
@@ -28,7 +26,6 @@ class Queue:
     def dequeue(self):
         """
         Remove e retorna o primeiro item da fila.
-
         :return: primeiro item da fila.
         :raises IndexError: se a fila estiver vazia.
         """
@@ -40,7 +37,6 @@ class Queue:
     def peek(self):
         """
         Retorna o primeiro item sem removê-lo.
-
         :return: primeiro item da fila.
         :raises IndexError: se a fila estiver vazia.
         """
@@ -52,7 +48,6 @@ class Queue:
     def is_empty(self):
         """
         Verifica se a fila está vazia.
-
         :return: True se vazia, False caso contrário.
         """
         return len(self.items) == 0
@@ -60,7 +55,6 @@ class Queue:
     def is_full(self):
         """
         Verifica se a fila está cheia.
-
         :return: True se cheia, False caso contrário.
         """
         if self.max_size is None:
@@ -71,7 +65,6 @@ class Queue:
     def size(self):
         """
         Retorna a quantidade de elementos na fila.
-
         :return: número de elementos.
         """
         return len(self.items)
