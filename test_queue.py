@@ -1,6 +1,5 @@
 from queue import Queue
 
-
 # Teste 1 - enqueue e size
 fila = Queue()
 
